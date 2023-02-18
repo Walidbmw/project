@@ -1,0 +1,15 @@
+p, h1{
+    text-align: center;
+
+}
+
+label{
+    font-size: 25px;
+}
+form{
+    background-color: blue;
+    color: white;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}

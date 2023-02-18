@@ -6,17 +6,17 @@
     <title>SurveyForm</title>
   </head>
   <h1 id="title">freeCodeCamp Survey Form</h1>
-
-  <<p id="description">Thank you for taking the time to help us improve the platform</p>
+<div class="main-container">
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
   <form id="survey-form">
-    <label id="name-label"> Name </label>
-    <input id="name" type="text" placeholder="Enter your name">
-    <label id="email-label">email </label>
-    <input id="email" type="email" placeholder="Enter your Email" required>
-    <label id="number-labe">Age (optionel)</label>
-    <input id="number" type="text" name="age" value="age" placeholder="Age" min="18" max="100" required>
+    <label id="name-label"> Name </label><br>
+    <input id="name" type="text" placeholder="Enter your name"><br>
+    <label id="email-label">email </label><br>
+    <input id="email" type="email" placeholder="Enter your Email" required><br>
+    <label id="number-labe">Age (optional)</label><br>
+    <input id="number" type="number" name="age" value="age" placeholder="Age" min="18" max="100" required><br>
 
-    <label for="role">Which option best describes your current role</label>
+    <label for="role">Which option best describes your current role</label><br>
 
     <select name="role" id="dropdown" placeholder="Select current role">
     <option value="student">student</option>
@@ -24,18 +24,18 @@
     <option value="Full time lena">Full time learner</option>
     <option value="Prefer not to say">Prefer not to say</option>
     <option value="Other">Other</option>
-  </select>
-  <h3>Would you recommend freeCodeCamp to a friend?</h3>
+  </select><br>
+  <label>Would you recommend freeCodeCamp to a friend?</label><br>
   <input type="radio" name="Definitly" value="Definitly">
-  <label for="Definitly">Definitly</label>
+  <label for="Definitly">Definitly</label><br>
   <input type="radio" name="Maybe" value="Maybe">
-  <label for="Maybe">Maybe</label>
+  <label for="Maybe">Maybe</label><br>
   <input type="radio" name="Not sure" value="Not sure">
-  <label for="Not sure">Not sure</label>
+  <label for="Not sure">Not sure</label><br>
 
 
 
-  <label for="role">What is your favorite feature of freeCodeCamp?</label>
+  <label for="role">What is your favorite feature of freeCodeCamp?</label><br>
 
   <select name="role" id="role" placeholder="Select an option">
   <option value="student">challenges</option>
@@ -50,10 +50,10 @@
  <label for="frontend"> Front-end Projects</label><br>
 
  <input type="checkbox" id="backend" name="backend" value="backend">
- <label for="backend"> Back-end Projects</label
+ <label for="backend"> Back-end Projects</label><br>
 
  <input type="checkbox" id="data" name="data" value="data">
- <label for="data"> Data visualisation</label><br
+ <label for="data"> Data visualisation</label><br>
 
  <input type="checkbox" id="challenges" name="challenges" value="challenges">
  <label for="challenges"> challenges</label><br>
@@ -82,12 +82,12 @@
  <input type="checkbox" id="course" name="course" value="course">
  <label for="course"> Additional courses</label><br>
 
-<h3>Any comments or suggestions?</h3
+<h3>Any comments or suggestions?</h3><br>
   <textarea id="w3review" name="w3review" rows="4" cols="50">
-  </textarea>
+  </textarea><br>
 <input id="submit" type="submit" name="submit" value="submit">
   </form>
-
+</div>
 
   <body>
 
