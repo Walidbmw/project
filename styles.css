@@ -4,12 +4,34 @@ p, h1{
 }
 
 label{
-    font-size: 25px;
+    font-size: 30px;
 }
 form{
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 255, .71);
     color: white;
     width: 60%;
     margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+    z-index: 7;
+    /* text-align: center; */
+}
+select, form input{
+    width: 70%;
+    height: 30px;
+    align-self: center;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 255, .71);
+    color: azure;
     text-align: center;
+
+}
+#submit{
+    background-color: blue;
+}
+body{
+    background-color: rgb(22, 22, 125);
+    color: white;
 }
