@@ -10,11 +10,12 @@
 <div class="main-container">
   <p id="description">Thank you for taking the time to help us improve the platform</p>
   <form id="survey-form">
-    <label id="name-label"> Name </label><br>
-    <input id="name" type="text" placeholder="Enter your name"><br>
-    <label id="email-label">email </label><br>
-    <input id="email" type="email" placeholder="Enter your Email" required><br>
-    <label id="number-labe">Age (optional)</label><br>
+    
+    <label id="name-label" value="name" for="name">Name </label><br>
+    <input name="name" id="name" type="text" placeholder="Enter your name" required><br>
+    <label id="email-label" value="mail" for="email">email </label><br>
+    <input name="email" id="email" type="email" placeholder="Enter your Email" required><br>
+    <label id="number-labe" for="age">Age (optional)</label><br>
     <input id="number" type="number" name="age" value="age" placeholder="Age" min="18" max="100" required><br>
 
     <label for="role">Which option best describes your current role</label><br>
